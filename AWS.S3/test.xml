@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Buckets>
+	<Bucket>
+		<Name>example-bucket-one</Name>
+		<CreationDate>2025-03-28T12:34:56.000Z</CreationDate>
+	</Bucket>
+	<Bucket>
+		<Name>example-bucket-two</Name>
+		<CreationDate>2024-11-15T09:12:34.000Z</CreationDate>
+	</Bucket>
+</Buckets>
