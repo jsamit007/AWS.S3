@@ -66,5 +66,10 @@ public class S3Service
     {
         return await _s3Client.DeleteObjectAsync(bucketName,key: fileName);
     }
+
+    public async Task<GetObjectResponse> GetObjectAsync(string bucketName, string fileName)
+    {
+        return await _s3Client.GetObjectAsync(bucketName, fileName);
+    }
 }
 

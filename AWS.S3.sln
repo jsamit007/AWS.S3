@@ -7,7 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.S3", "AWS.S3\AWS.S3.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.S3.Service", "AWS.S3.Service\AWS.S3.Service.csproj", "{A03C6F69-EF9B-49BE-9854-93652ADE7C3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS.ServiceProvider", "AWS.ServiceProvider\AWS.ServiceProvider.csproj", "{C3B9F1C6-A6CC-4156-9B0B-608D0645A8DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.ServiceProvider", "AWS.ServiceProvider\AWS.ServiceProvider.csproj", "{C3B9F1C6-A6CC-4156-9B0B-608D0645A8DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.S3.Function", "AWS.S3.Function\AWS.S3.Function.csproj", "{2EF7710E-B6CD-42BE-B5A0-4DE6869CA284}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamoDB.Service", "..\AWS.DynamoDB\DynamoDB.Service\DynamoDB.Service.csproj", "{B4805F94-A1F4-4F59-8AEE-94A0E07396A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.SNS.Service", "AWS.SNS.Service\AWS.SNS.Service.csproj", "{E1774A5B-EACA-4912-A335-8B112339A71F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.SNS.Function", "AWS.SNS.Function\AWS.SNS.Function.csproj", "{4941E618-E688-4E16-A8C1-B5CBCF976DAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS.SQS.Service", "AWS.SQS.Service\AWS.SQS.Service.csproj", "{ABC5F5EE-9AD7-4D45-99F5-8EC4635E672F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +37,26 @@ Global
 		{C3B9F1C6-A6CC-4156-9B0B-608D0645A8DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3B9F1C6-A6CC-4156-9B0B-608D0645A8DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3B9F1C6-A6CC-4156-9B0B-608D0645A8DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EF7710E-B6CD-42BE-B5A0-4DE6869CA284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EF7710E-B6CD-42BE-B5A0-4DE6869CA284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EF7710E-B6CD-42BE-B5A0-4DE6869CA284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF7710E-B6CD-42BE-B5A0-4DE6869CA284}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4805F94-A1F4-4F59-8AEE-94A0E07396A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4805F94-A1F4-4F59-8AEE-94A0E07396A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4805F94-A1F4-4F59-8AEE-94A0E07396A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4805F94-A1F4-4F59-8AEE-94A0E07396A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1774A5B-EACA-4912-A335-8B112339A71F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1774A5B-EACA-4912-A335-8B112339A71F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1774A5B-EACA-4912-A335-8B112339A71F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1774A5B-EACA-4912-A335-8B112339A71F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4941E618-E688-4E16-A8C1-B5CBCF976DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4941E618-E688-4E16-A8C1-B5CBCF976DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4941E618-E688-4E16-A8C1-B5CBCF976DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4941E618-E688-4E16-A8C1-B5CBCF976DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC5F5EE-9AD7-4D45-99F5-8EC4635E672F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC5F5EE-9AD7-4D45-99F5-8EC4635E672F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC5F5EE-9AD7-4D45-99F5-8EC4635E672F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC5F5EE-9AD7-4D45-99F5-8EC4635E672F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

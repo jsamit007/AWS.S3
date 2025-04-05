@@ -10,6 +10,8 @@
   <ItemGroup>
     <ProjectReference Include="..\AWS.S3.Service\AWS.S3.Service.csproj" />
     <ProjectReference Include="..\AWS.ServiceProvider\AWS.ServiceProvider.csproj" />
+    <ProjectReference Include="..\AWS.SNS.Service\AWS.SNS.Service.csproj" />
+    <ProjectReference Include="..\AWS.SQS.Service\AWS.SQS.Service.csproj" />
   </ItemGroup>
 
   <ItemGroup>
