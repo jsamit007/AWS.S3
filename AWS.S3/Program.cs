@@ -26,10 +26,10 @@ using System.Text.Json;
 //Console.WriteLine(JsonSerializer.Serialize(snsService.DeleteTopicAsync(topicArn!), new JsonSerializerOptions { WriteIndented = true }));
 
 // SQS Test
-var sqsClient = new S3ServiceProvider().GetSQSService();
+var sqsClient = new ServiceProvider().GetSQSService();
 var sqsService = new SQSService(sqsClient);
 
-//Console.WriteLine(JsonSerializer.Serialize(sqsService.CreateQueueAsync("js-amit-queue"), new JsonSerializerOptions { WriteIndented = true }));
+Console.WriteLine(JsonSerializer.Serialize(sqsService.CreateQueueAsync("js-amit-queue"), new JsonSerializerOptions { WriteIndented = true }));
 //Console.WriteLine(JsonSerializer.Serialize(sqsService.ListQueuesResponseAsync(), new JsonSerializerOptions { WriteIndented = true }));
 /*for(int i=0; i<5; i++)
     Console.WriteLine(
@@ -43,4 +43,4 @@ var sqsService = new SQSService(sqsClient);
 //    new JsonSerializerOptions { WriteIndented = true }
 //    ));
 
-Console.WriteLine(JsonSerializer.Serialize(sqsService.DeleteQueueResponseAsync("js-amit-queue"), new JsonSerializerOptions { WriteIndented = true }));
+//Console.WriteLine(JsonSerializer.Serialize(sqsService.DeleteQueueResponseAsync("js-amit-queue"), new JsonSerializerOptions { WriteIndented = true }));

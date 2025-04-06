@@ -5,7 +5,7 @@ using Amazon.SQS;
 
 namespace AWS.ServiceProvider;
 
-public class S3ServiceProvider 
+public class ServiceProvider 
 {
     public IAmazonS3 GetS3Service(bool isLocal=true)
     {

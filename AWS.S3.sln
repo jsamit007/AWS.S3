@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.S3", "AWS.S3\AWS.S3.csproj", "{4228B70C-0F37-485E-A667-14E4CAA3E6FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.SDK", "AWS.S3\AWS.SDK.csproj", "{4228B70C-0F37-485E-A667-14E4CAA3E6FE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.S3.Service", "AWS.S3.Service\AWS.S3.Service.csproj", "{A03C6F69-EF9B-49BE-9854-93652ADE7C3E}"
 EndProject
@@ -17,7 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.SNS.Service", "AWS.SNS.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.SNS.Function", "AWS.SNS.Function\AWS.SNS.Function.csproj", "{4941E618-E688-4E16-A8C1-B5CBCF976DAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS.SQS.Service", "AWS.SQS.Service\AWS.SQS.Service.csproj", "{ABC5F5EE-9AD7-4D45-99F5-8EC4635E672F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.SQS.Service", "AWS.SQS.Service\AWS.SQS.Service.csproj", "{ABC5F5EE-9AD7-4D45-99F5-8EC4635E672F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.SQS.Function", "AWS.SQS.Function\AWS.SQS.Function.csproj", "{1D03A919-ECB1-4F2E-969B-50AEE13C63AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamoDB.Stream.Function", "DynamoDB.Stream.Function\DynamoDB.Stream.Function.csproj", "{DFD52989-7EE2-414A-A9DB-BC3ABCD94471}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{ABC5F5EE-9AD7-4D45-99F5-8EC4635E672F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABC5F5EE-9AD7-4D45-99F5-8EC4635E672F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABC5F5EE-9AD7-4D45-99F5-8EC4635E672F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D03A919-ECB1-4F2E-969B-50AEE13C63AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D03A919-ECB1-4F2E-969B-50AEE13C63AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D03A919-ECB1-4F2E-969B-50AEE13C63AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D03A919-ECB1-4F2E-969B-50AEE13C63AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD52989-7EE2-414A-A9DB-BC3ABCD94471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD52989-7EE2-414A-A9DB-BC3ABCD94471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD52989-7EE2-414A-A9DB-BC3ABCD94471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD52989-7EE2-414A-A9DB-BC3ABCD94471}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

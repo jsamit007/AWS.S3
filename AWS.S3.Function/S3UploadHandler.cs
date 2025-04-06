@@ -2,7 +2,6 @@
 using Amazon.Lambda.Core;
 using Amazon.Lambda.S3Events;
 using AWS.S3.Service;
-using AWS.ServiceProvider;
 using DynamoDB.Service;
 using System.Text.Json;
 
@@ -17,7 +16,7 @@ internal class S3UploadHandler
         var bucketName = s3Event.Records[0].S3.Bucket.Name;
         var objectKey = s3Event.Records[0].S3.Object.Key;
 
-        var client = new S3ServiceProvider().GetS3Service(false);
+        var client = new AWS.ServiceProvider.ServiceProvider().GetS3Service(false);
         var s3Service = new S3Service(client);
 
         var getObjectResponse = await s3Service.GetObjectAsync(bucketName, objectKey);
