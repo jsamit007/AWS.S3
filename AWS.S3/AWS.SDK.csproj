@@ -8,13 +8,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AWS.Cognito\AWS.Cognito.csproj" />
+    <ProjectReference Include="..\AWS.EventBridge\AWS.EventBridge.csproj" />
     <ProjectReference Include="..\AWS.S3.Service\AWS.S3.Service.csproj" />
     <ProjectReference Include="..\AWS.ServiceProvider\AWS.ServiceProvider.csproj" />
     <ProjectReference Include="..\AWS.SNS.Service\AWS.SNS.Service.csproj" />
     <ProjectReference Include="..\AWS.SQS.Service\AWS.SQS.Service.csproj" />
+    <ProjectReference Include="..\AWS.StepFunction\AWS.StepFunction.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="example_2.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="test.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="test.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

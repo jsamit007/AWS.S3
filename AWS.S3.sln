@@ -21,7 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.SQS.Service", "AWS.SQS.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.SQS.Function", "AWS.SQS.Function\AWS.SQS.Function.csproj", "{1D03A919-ECB1-4F2E-969B-50AEE13C63AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamoDB.Stream.Function", "DynamoDB.Stream.Function\DynamoDB.Stream.Function.csproj", "{DFD52989-7EE2-414A-A9DB-BC3ABCD94471}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamoDB.Stream.Function", "DynamoDB.Stream.Function\DynamoDB.Stream.Function.csproj", "{DFD52989-7EE2-414A-A9DB-BC3ABCD94471}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.EventBridge", "AWS.EventBridge\AWS.EventBridge.csproj", "{3FA5848E-AD54-46AF-8D0B-83BCA0C6254E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.Cognito", "AWS.Cognito\AWS.Cognito.csproj", "{F79D8127-D53C-4CA7-8C7A-19301B01DBFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS.StepFunction", "AWS.StepFunction\AWS.StepFunction.csproj", "{10F4A580-C782-4C45-A599-77803B5B1FCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +75,18 @@ Global
 		{DFD52989-7EE2-414A-A9DB-BC3ABCD94471}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFD52989-7EE2-414A-A9DB-BC3ABCD94471}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFD52989-7EE2-414A-A9DB-BC3ABCD94471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FA5848E-AD54-46AF-8D0B-83BCA0C6254E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA5848E-AD54-46AF-8D0B-83BCA0C6254E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA5848E-AD54-46AF-8D0B-83BCA0C6254E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA5848E-AD54-46AF-8D0B-83BCA0C6254E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F79D8127-D53C-4CA7-8C7A-19301B01DBFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F79D8127-D53C-4CA7-8C7A-19301B01DBFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F79D8127-D53C-4CA7-8C7A-19301B01DBFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F79D8127-D53C-4CA7-8C7A-19301B01DBFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F4A580-C782-4C45-A599-77803B5B1FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F4A580-C782-4C45-A599-77803B5B1FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F4A580-C782-4C45-A599-77803B5B1FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F4A580-C782-4C45-A599-77803B5B1FCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

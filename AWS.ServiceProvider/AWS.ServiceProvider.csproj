@@ -11,6 +11,9 @@
     <PackageReference Include="AWSSDK.S3" Version="3.7.416.3" />
     <PackageReference Include="AWSSDK.SimpleNotificationService" Version="3.7.400.129" />
     <PackageReference Include="AWSSDK.SQS" Version="3.7.400.129" />
+	  <PackageReference Include="AWSSDK.EventBridge" Version="3.7.403" />
+	  <PackageReference Include="AWSSDK.CognitoIdentityProvider" Version="3.7.407.27" />
+	  <PackageReference Include="AWSSDK.StepFunctions" Version="3.7.403.76" />
   </ItemGroup>
 
 </Project>
